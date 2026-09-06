@@ -1,13 +1,34 @@
 # Dependensi
 node_modules/
+.venv/
+__pycache__/
+*.pyc
 
 # Build output
 .next/
 dist/
+build/
+.gradle/
+.kotlin/
+.build-outputs/
 
 # Environment (jangan commit kredensial)
 .env
 .env.local
+local.properties
+debug.keystore.base64
+
+# IDE & Editor
+.idea/
+.vscode/
+.devcontainer/
+
+# Documents & Large Binaries
+*.docx
+*.pdf
+*.pptx
+*.zip
+*.mhtml
 
 # Log & cache
 npm-debug.log*
